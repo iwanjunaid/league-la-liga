@@ -1,0 +1,33 @@
+{
+  "name": "league-la-liga",
+  "version": "1.0.0",
+  "description": "Scraper for La Liga League",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwanjunaid/league-la-liga.git"
+  },
+  "keywords": [
+    "football",
+    "league",
+    "laliga",
+    "scraper"
+  ],
+  "author": "Kurniawan Junaidy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwanjunaid/league-la-liga/issues"
+  },
+  "homepage": "https://github.com/iwanjunaid/league-la-liga#readme",
+  "dependencies": {
+    "async": "1.5.x",
+    "cheerio": "0.20.x",
+    "node-horseman": "2.8.x"
+  },
+  "devDependencies": {
+    "mocha": "2.4.x"
+  }
+}
