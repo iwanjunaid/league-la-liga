@@ -36,6 +36,7 @@ Scraper.prototype.init = function(initCb) {
 Scraper.prototype.info = function() {
   return {
     name: 'laliga',
-    version: '1.0.0'
+    version: '1.0.1',
+    label: 'La Liga'
   };
 };

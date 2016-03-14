@@ -5,6 +5,17 @@ describe('La Liga League', function() {
     });
   });
 
+  describe('Check scraper', function() {
+    it('should returns proper info', function(done) {
+      var info = scraper.info();
+
+      assert.equal('laliga', info.name);
+      assert.equal('1.0.1', info.version);
+      assert.equal('La Liga', info.label);
+      done();
+    });
+  });
+
   describe('Standings', function() {
     describe('Full', function() {
       var result = null;
