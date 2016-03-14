@@ -10,7 +10,7 @@ describe('La Liga League', function() {
       var info = scraper.info();
 
       assert.equal('laliga', info.name);
-      assert.equal('1.0.1', info.version);
+      assert.equal('1.0.1', info.apiVersion);
       assert.equal('La Liga', info.label);
       done();
     });
